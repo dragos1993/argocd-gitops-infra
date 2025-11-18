@@ -11,7 +11,7 @@ spec:
     path: charts/nginx-app
     helm:
       valueFiles:
-        - apps/inc/dev/values.yaml
+        - ../../apps/inc/dev/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: inc-dev
